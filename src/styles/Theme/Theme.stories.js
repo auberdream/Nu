@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 import { readableColor } from 'polished';
-import { theme } from './Theme';
+import { Theme } from './Theme';
 
 export default {
     title: 'Theme',
@@ -38,26 +38,29 @@ const Swatch = styled.div`
 const SwatchContainer = styled.div`
   background: ${({ theme }) => theme.palette.background.main};
   display: grid;
-  grid-template-columns: repeat(auto-fill, 300px);
-  grid-row-gap: 20px;
-  padding: 40px 10px 0 10px;
+  grid-template-columns: repeat(auto-fill, 50%);
+  padding: 10px;
+  height: 100vh;
+  align-items: center;
+  justify-items: center;
+width: 100%;
 `;
 
 export const Palette = () => (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={Theme}>
         <section>
-            {Object.keys(theme.palette).map(group => (
-                <React.Fragment key={group}>
-                    <SwatchContainer>
-                        <Swatch group={group} color={theme.palette[group].main}>
+            <SwatchContainer>
+                {Object.keys(Theme.palette).map(group => (
+                    <React.Fragment key={group}>
+                        <Swatch group={group} color={Theme.palette[group].main}>
                             <span>
                                 {group}.main
                             </span>
-                            <span>{theme.palette[group].main}</span>
+                            <span>{Theme.palette[group].main}</span>
                         </Swatch>
-                    </SwatchContainer>
-                </React.Fragment>
-            ))}
+                    </React.Fragment>
+                ))}
+            </SwatchContainer>
         </section>
     </ThemeProvider>
 );

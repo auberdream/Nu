@@ -1570,6 +1570,27 @@
     qs "^6.6.0"
     ts-dedent "^1.1.0"
 
+"@storybook/addon-storyshots@^5.3.19":
+  version "5.3.19"
+  resolved "https://npm.rainbird.ai/@storybook%2faddon-storyshots/-/addon-storyshots-5.3.19.tgz#cb07ac3cc20d3a399ed4b6758008e10f910691d0"
+  integrity sha512-4TBbpAqbc9HLPxaJB2koQija67OBgGRhBZ5l2goczbgIWbbh3BXDrg3SwmKXC0cFnslgbuKU3CMX7infgtkByA==
+  dependencies:
+    "@jest/transform" "^24.9.0"
+    "@storybook/addons" "5.3.19"
+    "@storybook/client-api" "5.3.19"
+    "@storybook/core" "5.3.19"
+    "@types/glob" "^7.1.1"
+    "@types/jest" "^24.0.16"
+    "@types/jest-specific-snapshot" "^0.5.3"
+    babel-plugin-require-context-hook "^1.0.0"
+    core-js "^3.0.1"
+    glob "^7.1.3"
+    global "^4.3.2"
+    jest-specific-snapshot "^2.0.0"
+    read-pkg-up "^7.0.0"
+    regenerator-runtime "^0.13.3"
+    ts-dedent "^1.1.0"
+
 "@storybook/addons@5.3.19", "@storybook/addons@^5.3.19":
   version "5.3.19"
   resolved "https://npm.rainbird.ai/@storybook%2faddons/-/addons-5.3.19.tgz#3a7010697afd6df9a41b8c8a7351d9a06ff490a4"
@@ -2236,6 +2257,14 @@
   resolved "https://npm.rainbird.ai/@types%2fhistory/-/history-4.7.6.tgz#ed8fc802c45b8e8f54419c2d054e55c9ea344356"
   integrity sha512-GRTZLeLJ8ia00ZH8mxMO8t0aC9M1N9bN461Z2eaRurJo6Fpa+utgCwLzI4jQHcrdzuzp5WPN9jRwpsCQ1VhJ5w==
 
+"@types/hoist-non-react-statics@*":
+  version "3.3.1"
+  resolved "https://npm.rainbird.ai/@types%2fhoist-non-react-statics/-/hoist-non-react-statics-3.3.1.tgz#1124aafe5118cb591977aeb1ceaaed1070eb039f"
+  integrity sha512-iMIqiko6ooLrTh1joXodJK5X9xeEALT1kM5G3ZLhD3hszxBdIEd5C75U834D9mLcINgD4OyZf5uQXjkuYydWvA==
+  dependencies:
+    "@types/react" "*"
+    hoist-non-react-statics "^3.3.0"
+
 "@types/html-minifier-terser@^5.0.0":
   version "5.1.0"
   resolved "https://npm.rainbird.ai/@types%2fhtml-minifier-terser/-/html-minifier-terser-5.1.0.tgz#551a4589b6ee2cc9c1dff08056128aec29b94880"
@@ -2265,6 +2294,28 @@
   dependencies:
     "@types/istanbul-lib-coverage" "*"
     "@types/istanbul-lib-report" "*"
+
+"@types/jest-specific-snapshot@^0.5.3":
+  version "0.5.4"
+  resolved "https://npm.rainbird.ai/@types%2fjest-specific-snapshot/-/jest-specific-snapshot-0.5.4.tgz#997364c39a59ddeff0ee790a19415e79dd061d1e"
+  integrity sha512-1qISn4fH8wkOOPFEx+uWRRjw6m/pP/It3OHLm8Ee1KQpO7Z9ZGYDtWPU5AgK05UXsNTAgOK+dPQvJKGdy9E/1g==
+  dependencies:
+    "@types/jest" "*"
+
+"@types/jest@*":
+  version "26.0.4"
+  resolved "https://npm.rainbird.ai/@types%2fjest/-/jest-26.0.4.tgz#d2e513e85aca16992816f192582b5e67b0b15efb"
+  integrity sha512-4fQNItvelbNA9+sFgU+fhJo8ZFF+AS4Egk3GWwCW2jFtViukXbnztccafAdLhzE/0EiCogljtQQXP8aQ9J7sFg==
+  dependencies:
+    jest-diff "^25.2.1"
+    pretty-format "^25.2.1"
+
+"@types/jest@^24.0.16":
+  version "24.9.1"
+  resolved "https://npm.rainbird.ai/@types%2fjest/-/jest-24.9.1.tgz#02baf9573c78f1b9974a5f36778b366aa77bd534"
+  integrity sha512-Fb38HkXSVA4L8fGKEZ6le5bB8r6MRWlOCZbVuWZcmOMSCd2wCYOwN1ibj8daIoV9naq7aaOZjrLCoCMptKU/4Q==
+  dependencies:
+    jest-diff "^24.3.0"
 
 "@types/jest@^25.1.4":
   version "25.2.3"
@@ -2299,6 +2350,11 @@
   resolved "https://npm.rainbird.ai/@types%2fnode/-/node-12.12.47.tgz#5007b8866a2f9150de82335ca7e24dd1d59bdfb5"
   integrity sha512-yzBInQFhdY8kaZmqoL2+3U5dSTMrKaYcb561VU+lDzAYvqt+2lojvBEy+hmpSNuXnPTx7m9+04CzWYOUqWME2A==
 
+"@types/normalize-package-data@^2.4.0":
+  version "2.4.0"
+  resolved "https://npm.rainbird.ai/@types%2fnormalize-package-data/-/normalize-package-data-2.4.0.tgz#e486d0d97396d79beedd0a6e33f4534ff6b4973e"
+  integrity sha512-f5j5b/Gf71L+dbqxIpQ4Z2WlmI/mPJ0fOkGGmFgtb6sAu97EPczzbS3/tJKxmcYDj55OX6ssqwDAWOHIYDRDGA==
+
 "@types/npmlog@^4.1.2":
   version "4.1.2"
   resolved "https://npm.rainbird.ai/@types%2fnpmlog/-/npmlog-4.1.2.tgz#d070fe6a6b78755d1092a3dc492d34c3d8f871c4"
@@ -2331,6 +2387,13 @@
   version "16.9.8"
   resolved "https://npm.rainbird.ai/@types%2freact-dom/-/react-dom-16.9.8.tgz#fe4c1e11dfc67155733dfa6aa65108b4971cb423"
   integrity sha512-ykkPQ+5nFknnlU6lDd947WbQ6TE3NNzbQAkInC2EKY1qeYdTKp7onFusmYZb+ityzx2YviqT6BXSu+LyWWJwcA==
+  dependencies:
+    "@types/react" "*"
+
+"@types/react-native@*":
+  version "0.62.16"
+  resolved "https://npm.rainbird.ai/@types%2freact-native/-/react-native-0.62.16.tgz#17b05b37482c70126055172e57f5eb110cff7087"
+  integrity sha512-0f5MF4zzqZpZpDmwTmGS0Pd206k2K3rsVjaz0/iuBPZkpWC9r8+/A6WvTTJXgfP2mhRUcMfAqEY0iyz7Xk75qw==
   dependencies:
     "@types/react" "*"
 
@@ -2372,6 +2435,16 @@
   version "1.0.1"
   resolved "https://npm.rainbird.ai/@types%2fstack-utils/-/stack-utils-1.0.1.tgz#0a851d3bd96498fa25c33ab7278ed3bd65f06c3e"
   integrity sha512-l42BggppR6zLmpfU6fq9HEa2oGPEI8yrSPL3GITjfRInppYFahObbIQOQK3UGxEnyQpltZLaPe75046NOZQikw==
+
+"@types/styled-components@^5.1.0":
+  version "5.1.0"
+  resolved "https://npm.rainbird.ai/@types%2fstyled-components/-/styled-components-5.1.0.tgz#24d3412ba5395aa06e14fbc93c52f9454cebd0d6"
+  integrity sha512-ZFlLCuwF5r+4Vb7JUmd+Yr2S0UBdBGmI7ctFTgJMypIp3xOHI4LCFVn2dKMvpk6xDB2hLRykrEWMBwJEpUAUIQ==
+  dependencies:
+    "@types/hoist-non-react-statics" "*"
+    "@types/react" "*"
+    "@types/react-native" "*"
+    csstype "^2.2.0"
 
 "@types/tapable@*", "@types/tapable@^1.0.5":
   version "1.0.6"
@@ -3509,6 +3582,11 @@ babel-plugin-react-docgen@^4.0.0, babel-plugin-react-docgen@^4.1.0:
     lodash "^4.17.15"
     react-docgen "^5.0.0"
     recast "^0.14.7"
+
+babel-plugin-require-context-hook@^1.0.0:
+  version "1.0.0"
+  resolved "https://npm.rainbird.ai/babel-plugin-require-context-hook/-/babel-plugin-require-context-hook-1.0.0.tgz#3f0e7cce87c338f53639b948632fd4e73834632d"
+  integrity sha512-EMZD1563QUqLhzrqcThk759RhuNVX/ZJdrtGK6drwzgvnR+ARjWyXIHPbu+tUNaMGtPz/gQeAM2M6VUw2UiUeA==
 
 "babel-plugin-styled-components@>= 1":
   version "1.10.7"
@@ -4950,7 +5028,7 @@ css.escape@^1.5.1:
   resolved "https://npm.rainbird.ai/css.escape/-/css.escape-1.5.1.tgz#42e27d4fa04ae32f931a4b4d4191fa9cddee97cb"
   integrity sha1-QuJ9T6BK4y+TGktNQZH6nN3ul8s=
 
-css@^2.0.0, css@^2.2.3:
+css@^2.0.0, css@^2.2.3, css@^2.2.4:
   version "2.2.4"
   resolved "https://npm.rainbird.ai/css/-/css-2.2.4.tgz#c646755c73971f2bba6a601e2cf2fd71b1298929"
   integrity sha512-oUnjmWpy0niI3x/mPL8dVEI1l7MnG3+HHyRPHf+YFSbK+svOhXpmSOcDURUh2aOCgl2grzrOPt1nHLuCVFULLw==
@@ -8088,7 +8166,7 @@ jest-config@^24.9.0:
     pretty-format "^24.9.0"
     realpath-native "^1.1.0"
 
-jest-diff@^24.0.0, jest-diff@^24.9.0:
+jest-diff@^24.0.0, jest-diff@^24.3.0, jest-diff@^24.9.0:
   version "24.9.0"
   resolved "https://npm.rainbird.ai/jest-diff/-/jest-diff-24.9.0.tgz#931b7d0d5778a1baf7452cb816e325e3724055da"
   integrity sha512-qMfrTs8AdJE2iqrTp0hzh7kTd2PQWrsFyj9tORoKmu32xjPjeE4NyjVRDz8ybYwqS2ik8N4hsIpiVTyFeo2lBQ==
@@ -8340,7 +8418,7 @@ jest-serializer@^24.9.0:
   resolved "https://npm.rainbird.ai/jest-serializer/-/jest-serializer-24.9.0.tgz#e6d7d7ef96d31e8b9079a714754c5d5c58288e73"
   integrity sha512-DxYipDr8OvfrKH3Kel6NdED3OXxjvxXZ1uIY2I9OFbGg+vUkkg7AGvi65qbhbWNPvDckXmzMPbK3u3HaDO49bQ==
 
-jest-snapshot@^24.9.0:
+jest-snapshot@^24.1.0, jest-snapshot@^24.9.0:
   version "24.9.0"
   resolved "https://npm.rainbird.ai/jest-snapshot/-/jest-snapshot-24.9.0.tgz#ec8e9ca4f2ec0c5c87ae8f925cf97497b0e951ba"
   integrity sha512-uI/rszGSs73xCM0l+up7O7a40o90cnrk429LOiK3aeTvfC0HHmldbd81/B7Ix81KSFe1lwkbl7GnBGG4UfuDew==
@@ -8358,6 +8436,20 @@ jest-snapshot@^24.9.0:
     natural-compare "^1.4.0"
     pretty-format "^24.9.0"
     semver "^6.2.0"
+
+jest-specific-snapshot@^2.0.0:
+  version "2.0.0"
+  resolved "https://npm.rainbird.ai/jest-specific-snapshot/-/jest-specific-snapshot-2.0.0.tgz#425fe524b25df154aa39f97fa6fe9726faaac273"
+  integrity sha512-aXaNqBg/svwEpY5iQEzEHc5I85cUBKgfeVka9KmpznxLnatpjiqjr7QLb/BYNYlsrZjZzgRHTjQJ+Svx+dbdvg==
+  dependencies:
+    jest-snapshot "^24.1.0"
+
+jest-styled-components@^7.0.2:
+  version "7.0.2"
+  resolved "https://npm.rainbird.ai/jest-styled-components/-/jest-styled-components-7.0.2.tgz#b7711871ea74a04491b12bad123fa35cc65a2a80"
+  integrity sha512-i1Qke8Jfgx0Why31q74ohVj9S2FmMLUE8bNRSoK4DgiurKkXG6HC4NPhcOLAz6VpVd9wXkPn81hOt4aAQedqsA==
+  dependencies:
+    css "^2.2.4"
 
 jest-util@^24.0.0, jest-util@^24.9.0:
   version "24.9.0"
@@ -9530,7 +9622,7 @@ node-releases@^1.1.29, node-releases@^1.1.52, node-releases@^1.1.58:
   resolved "https://npm.rainbird.ai/node-releases/-/node-releases-1.1.58.tgz#8ee20eef30fa60e52755fcc0942def5a734fe935"
   integrity sha512-NxBudgVKiRh/2aPWMgPR7bPTX0VPmGx5QBwCtdHitnqFE5/O8DeBXuIMH1nwNnw/aMo6AjOrpsHzfY3UbUJ7yg==
 
-normalize-package-data@^2.3.2:
+normalize-package-data@^2.3.2, normalize-package-data@^2.5.0:
   version "2.5.0"
   resolved "https://npm.rainbird.ai/normalize-package-data/-/normalize-package-data-2.5.0.tgz#e66db1838b200c1dfc233225d12cb36520e234a8"
   integrity sha512-/5CMN3T0R4XTj4DcGaexo+roZSdSFW/0AOOTROrjxzCG1wrWXEsGbRKevjlIL+ZDE4sZlJr5ED4YW0yqmkK+eA==
@@ -10259,7 +10351,7 @@ pnp-webpack-plugin@1.6.4, pnp-webpack-plugin@^1.6.4:
   dependencies:
     ts-pnp "^1.1.6"
 
-polished@^3.3.1:
+polished@^3.3.1, polished@^3.6.5:
   version "3.6.5"
   resolved "https://npm.rainbird.ai/polished/-/polished-3.6.5.tgz#dbefdde64c675935ec55119fe2a2ab627ca82e9c"
   integrity sha512-VwhC9MlhW7O5dg/z7k32dabcAFW1VI2+7fSe8cE/kXcfL7mVdoa5UxciYGW2sJU78ldDLT6+ROEKIZKFNTnUXQ==
@@ -11481,7 +11573,7 @@ react-error-overlay@^6.0.3, react-error-overlay@^6.0.7:
   resolved "https://npm.rainbird.ai/react-error-overlay/-/react-error-overlay-6.0.7.tgz#1dcfb459ab671d53f660a991513cb2f0a0553108"
   integrity sha512-TAv1KJFh3RhqxNvhzxj6LeT5NWklP6rDr2a0jaTfsZ5wSZWHOGeqQyejUp3xxLfPt2UpyJEcVQB/zyPcmonNFA==
 
-react-fast-compare@^3.0.1:
+react-fast-compare@^3.0.1, react-fast-compare@^3.1.1:
   version "3.2.0"
   resolved "https://npm.rainbird.ai/react-fast-compare/-/react-fast-compare-3.2.0.tgz#641a9da81b6a6320f270e89724fb45a0b39e43bb"
   integrity sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==
@@ -11509,6 +11601,16 @@ react-helmet-async@^1.0.2:
     react-fast-compare "^3.0.1"
     shallowequal "^1.1.0"
 
+react-helmet@^6.1.0:
+  version "6.1.0"
+  resolved "https://npm.rainbird.ai/react-helmet/-/react-helmet-6.1.0.tgz#a750d5165cb13cf213e44747502652e794468726"
+  integrity sha512-4uMzEY9nlDlgxr61NL3XbKRy1hEkXmKNXhjbAIOVw5vcFrsdYbH2FEwcNyWvWinl103nXgzYNlns9ca+8kFiWw==
+  dependencies:
+    object-assign "^4.1.1"
+    prop-types "^15.7.2"
+    react-fast-compare "^3.1.1"
+    react-side-effect "^2.1.0"
+
 react-hotkeys@2.0.0:
   version "2.0.0"
   resolved "https://npm.rainbird.ai/react-hotkeys/-/react-hotkeys-2.0.0.tgz#a7719c7340cbba888b0e9184f806a9ec0ac2c53f"
@@ -11525,7 +11627,7 @@ react-inspector@^4.0.0:
     is-dom "^1.0.9"
     prop-types "^15.6.1"
 
-react-is@^16.12.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4:
+react-is@^16.12.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
   version "16.13.1"
   resolved "https://npm.rainbird.ai/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
@@ -11616,6 +11718,11 @@ react-scripts@^3.4.1:
   optionalDependencies:
     fsevents "2.1.2"
 
+react-side-effect@^2.1.0:
+  version "2.1.0"
+  resolved "https://npm.rainbird.ai/react-side-effect/-/react-side-effect-2.1.0.tgz#1ce4a8b4445168c487ed24dab886421f74d380d3"
+  integrity sha512-IgmcegOSi5SNX+2Snh1vqmF0Vg/CbkycU9XZbOHJlZ6kMzTmi3yc254oB1WCkgA7OQtIAoLmcSFuHTc/tlcqXg==
+
 react-sizeme@^2.6.7:
   version "2.6.12"
   resolved "https://npm.rainbird.ai/react-sizeme/-/react-sizeme-2.6.12.tgz#ed207be5476f4a85bf364e92042520499455453e"
@@ -11636,6 +11743,16 @@ react-syntax-highlighter@^11.0.2:
     lowlight "~1.11.0"
     prismjs "^1.8.4"
     refractor "^2.4.1"
+
+react-test-renderer@^16.13.1:
+  version "16.13.1"
+  resolved "https://npm.rainbird.ai/react-test-renderer/-/react-test-renderer-16.13.1.tgz#de25ea358d9012606de51e012d9742e7f0deabc1"
+  integrity sha512-Sn2VRyOK2YJJldOqoh8Tn/lWQ+ZiKhyZTPtaO0Q6yNj+QDbmRkVFap6pZPy3YQk8DScRDfyqm/KxKYP9gCMRiQ==
+  dependencies:
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    react-is "^16.8.6"
+    scheduler "^0.19.1"
 
 react-textarea-autosize@^7.1.0:
   version "7.1.2"
@@ -11670,6 +11787,15 @@ read-pkg-up@^4.0.0:
     find-up "^3.0.0"
     read-pkg "^3.0.0"
 
+read-pkg-up@^7.0.0:
+  version "7.0.1"
+  resolved "https://npm.rainbird.ai/read-pkg-up/-/read-pkg-up-7.0.1.tgz#f3a6135758459733ae2b95638056e1854e7ef507"
+  integrity sha512-zK0TB7Xd6JpCLmlLmufqykGE+/TlOePD6qKClNW7hHDKFh/J7/7gCWGR7joEQEW1bKq3a3yUZSObOoWLFQ4ohg==
+  dependencies:
+    find-up "^4.1.0"
+    read-pkg "^5.2.0"
+    type-fest "^0.8.1"
+
 read-pkg@^2.0.0:
   version "2.0.0"
   resolved "https://npm.rainbird.ai/read-pkg/-/read-pkg-2.0.0.tgz#8ef1c0623c6a6db0dc6713c4bfac46332b2368f8"
@@ -11687,6 +11813,16 @@ read-pkg@^3.0.0:
     load-json-file "^4.0.0"
     normalize-package-data "^2.3.2"
     path-type "^3.0.0"
+
+read-pkg@^5.2.0:
+  version "5.2.0"
+  resolved "https://npm.rainbird.ai/read-pkg/-/read-pkg-5.2.0.tgz#7bf295438ca5a33e56cd30e053b34ee7250c93cc"
+  integrity sha512-Ug69mNOpfvKDAc2Q8DRpMjjzdtrnv9HcSMX+4VsZxD1aZ6ZzrIE7rlzXBtWTyhULSMKg076AW6WR5iZpD0JiOg==
+  dependencies:
+    "@types/normalize-package-data" "^2.4.0"
+    normalize-package-data "^2.5.0"
+    parse-json "^5.0.0"
+    type-fest "^0.6.0"
 
 "readable-stream@1 || 2", readable-stream@^2.0.0, readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.6, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.3.3, readable-stream@^2.3.6, readable-stream@~2.3.6:
   version "2.3.7"
@@ -13504,6 +13640,11 @@ type-fest@^0.11.0:
   version "0.11.0"
   resolved "https://npm.rainbird.ai/type-fest/-/type-fest-0.11.0.tgz#97abf0872310fed88a5c466b25681576145e33f1"
   integrity sha512-OdjXJxnCN1AvyLSzeKIgXTXxV+99ZuXl3Hpo9XpJAv9MBcHrrJOQ5kV7ypXOuQie+AmWG25hLbiKdwYTifzcfQ==
+
+type-fest@^0.6.0:
+  version "0.6.0"
+  resolved "https://npm.rainbird.ai/type-fest/-/type-fest-0.6.0.tgz#8d2a2370d3df886eb5c90ada1c5bf6188acf838b"
+  integrity sha512-q+MB8nYR1KDLrgr4G5yemftpMC7/QLqVndBmEEdqzmNj5dcFOO4Oo8qlwZE3ULT3+Zim1F8Kq4cBnikNhlCMlg==
 
 type-fest@^0.8.1:
   version "0.8.1"

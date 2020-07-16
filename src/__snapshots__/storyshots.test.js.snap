@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Theme Palette 1`] = `
+.c1 {
+  background: #fff3f6;
+  border-radius: 9px;
+  color: #000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-size: 13px;
+  font-weight: 300;
+  height: 60px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 20px;
+  width: 180px;
+  padding: 10px;
+  position: relative;
+  box-shadow: 5px 5px 10px 0 #ffd9e3, -5px -5px 10px 0 #fff, inset -5px -5px 10px 0 #fff, inset 5px 5px 10px 0 #ffd9e3;
+}
+
+.c2 {
+  background: #ffd1da;
+  border-radius: 9px;
+  color: #000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-size: 13px;
+  font-weight: 300;
+  height: 60px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 20px;
+  width: 180px;
+  padding: 10px;
+  position: relative;
+  box-shadow: 5px 5px 10px 0 #ffd9e3, -5px -5px 10px 0 #fff, inset -5px -5px 10px 0 #ffebef, inset 5px 5px 10px 0 #ffb7c5;
+}
+
+.c3 {
+  background: #d0ffee;
+  border-radius: 9px;
+  color: #000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-size: 13px;
+  font-weight: 300;
+  height: 60px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 20px;
+  width: 180px;
+  padding: 10px;
+  position: relative;
+  box-shadow: 5px 5px 10px 0 #ffd9e3, -5px -5px 10px 0 #fff, inset -5px -5px 10px 0 #eafff7, inset 5px 5px 10px 0 #b6ffe5;
+}
+
+.c4 {
+  background: #ffdfc8;
+  border-radius: 9px;
+  color: #000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-size: 13px;
+  font-weight: 300;
+  height: 60px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 20px;
+  width: 180px;
+  padding: 10px;
+  position: relative;
+  box-shadow: 5px 5px 10px 0 #ffd9e3, -5px -5px 10px 0 #fff, inset -5px -5px 10px 0 #ffeee2, inset 5px 5px 10px 0 #ffd0ae;
+}
+
+.c5 {
+  background: #ffc2c2;
+  border-radius: 9px;
+  color: #000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-size: 13px;
+  font-weight: 300;
+  height: 60px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 20px;
+  width: 180px;
+  padding: 10px;
+  position: relative;
+  box-shadow: 5px 5px 10px 0 #ffd9e3, -5px -5px 10px 0 #fff, inset -5px -5px 10px 0 #ffdcdc, inset 5px 5px 10px 0 #ffa8a8;
+}
+
+.c0 {
+  background: #fff3f6;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,50%);
+  padding: 10px;
+  height: 100vh;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+}
+
+<section>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+      color="#fff3f6"
+    >
+      <span>
+        background
+        .main
+      </span>
+      <span>
+        #fff3f6
+      </span>
+    </div>
+    <div
+      className="c1"
+      color="#fff3f6"
+    >
+      <span>
+        primary
+        .main
+      </span>
+      <span>
+        #fff3f6
+      </span>
+    </div>
+    <div
+      className="c2"
+      color="#ffd1da"
+    >
+      <span>
+        secondary
+        .main
+      </span>
+      <span>
+        #ffd1da
+      </span>
+    </div>
+    <div
+      className="c3"
+      color="#d0ffee"
+    >
+      <span>
+        success
+        .main
+      </span>
+      <span>
+        #d0ffee
+      </span>
+    </div>
+    <div
+      className="c4"
+      color="#ffdfc8"
+    >
+      <span>
+        warning
+        .main
+      </span>
+      <span>
+        #ffdfc8
+      </span>
+    </div>
+    <div
+      className="c5"
+      color="#ffc2c2"
+    >
+      <span>
+        error
+        .main
+      </span>
+      <span>
+        #ffc2c2
+      </span>
+    </div>
+  </div>
+</section>
+`;

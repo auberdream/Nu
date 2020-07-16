@@ -7,7 +7,7 @@ const mint = '#d0ffee'
 const desert = '#ffdfc8'
 const washedCoral = '#ffc2c2'
 
-const theme: DefaultTheme = {
+const Theme: DefaultTheme = {
     palette: {
         background: {
             highlight: lighten(0.05, dustedPink),
@@ -42,4 +42,4 @@ const theme: DefaultTheme = {
     }
 }
 
-export { theme }
+export { Theme }
